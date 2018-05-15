@@ -1,0 +1,50 @@
+1. Java安装
+Java下载地址：http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+
+下载后点下一步安装即可，完成后，Java默认安装目录为：/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home
+
+mac上查看Java安装路径：
+
+打开iTerm执行：/usr/libexec/java_home
+
+2. maven安装
+
+下载地址：http://maven.apache.org/download.cgi
+
+下载时一定要注意，不要下载源码，因为源码需要自己编译，所以要下载编译好的maven包
+
+如下图红色标记的两个都可以
+
+
+
+下载完解压文件到某个目录下，我这里放到目录：/Users/wangliting下了
+
+设置maven环境变量，vim打开.bash_profile文件
+
+添加如下：
+
+
+
+添加完需要执行source ~/.bash_profile使其生效
+
+3 .idea安装及配置
+下载地址：https://www.jetbrains.com/idea/download/#section=mac
+
+设置maven
+
+打开idea->preference，搜索框输入maven如下图所示，设置maven的安装目录及setting.xml文件
+
+
+
+这里的setting.xml文件里配置了项目的依赖地址，这些依赖地址一般包含公司开发的包及第三方的包
+
+设置jdk
+
+打开idea->file->ProjectStructure->SDKs如图：添加java的home路径
+
+
+
+ 
+
+
+
