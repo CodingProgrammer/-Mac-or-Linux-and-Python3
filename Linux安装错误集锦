@@ -1,0 +1,4 @@
+1.
+Running setup.py bdist_wheel for mysqlclient ... error
+error: command 'gcc' failed with exit status 1
+solution:dnf install python3-devel
