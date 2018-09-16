@@ -1,2 +1,5 @@
 -i https://pypi.tuna.tsinghua.edu.cn/simple
 eg: pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple flask
+
+豆瓣：http://pypi.douban.com/simple/
+eg: pip3 install -i http://pypi.douban.com/simple/ flask
